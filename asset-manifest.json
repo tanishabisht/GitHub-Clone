@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GitHub-Clone/static/css/main.f767d5e1.css",
+    "main.js": "/GitHub-Clone/static/js/main.250a7279.js",
+    "index.html": "/GitHub-Clone/index.html",
+    "main.f767d5e1.css.map": "/GitHub-Clone/static/css/main.f767d5e1.css.map",
+    "main.250a7279.js.map": "/GitHub-Clone/static/js/main.250a7279.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f767d5e1.css",
+    "static/js/main.250a7279.js"
+  ]
+}
