@@ -1,5 +1,5 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import { MainPage } from './Pages';
+import { MainPage, RepoPage } from './Pages';
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <div className="app">
         <Routes>
           <Route path="/" element={<MainPage />} />
+          <Route path="/:username/:id" element={<RepoPage />} />
         </Routes>
       </div>
     </HashRouter>
