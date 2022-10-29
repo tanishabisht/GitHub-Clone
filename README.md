@@ -8,9 +8,9 @@
 - Also on the repository list page near the user info, add a button / link that should lead to
   a page with followers of the current user. (Design not given, you are free to choose any
   simple design or you may follow a design similar to the repository list)
+- Also there has to be a way to go back to the repository list page with the input box
 
 * Clicking on any follower should display the repository list page of that user
-* Also there has to be a way to go back to the repository list page with the input box
 
 ## How to run it locally
 

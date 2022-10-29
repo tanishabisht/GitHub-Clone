@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import { FollowerCard } from '../../Components';
 import '../pages.scss';
 import axios from 'axios';
 
@@ -19,12 +20,12 @@ const FollowersPage = () => {
 
   return (
     <div className="main_container">
-      <div className="col">
-        <code>Application</code>
-        {followersList !== []
-          ? followersList.map((data, id) => <h1 key={id}>{data.login}</h1>)
-          : null}
-      </div>
+      <h1 className="main_header">Followers of {username}</h1>
+      {followersList !== []
+        ? followersList.map((data, id) => (
+            <FollowerCard key={id} userdata={data} />
+          ))
+        : null}
     </div>
   );
 };

@@ -1,8 +1,33 @@
-.display_image {
+.repocard_container {
+  display: flex;
+  background-color: #d3f3f9;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 50rem;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #92bac2;
+}
+
+.repocard_image {
+  margin-right: 1rem;
   height: 50px;
   width: 50px;
 }
 
-.repocard_container {
+.followcard_container {
   display: flex;
+  background-color: #d3f3f9;
+  padding: 10px 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50rem;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #92bac2;
+}
+
+.followcard_desc {
+  margin-right: 1rem;
 }

@@ -1,5 +1,6 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { MainPage, RepoPage, FollowersPage } from './Pages';
+import { Navbar } from './Components';
 import { useState, createContext } from 'react';
 import axios from 'axios';
 
@@ -35,6 +36,7 @@ function App() {
       <RepoContext.Provider value={repo}>
         <HashRouter>
           <div className="app">
+            <Navbar />
             <Routes>
               <Route
                 path="/"

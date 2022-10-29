@@ -7,7 +7,7 @@ const RepoCard = (props) => {
   return (
     <div className="repocard_container">
       <div className="col">
-        <img src={ownerImg} alt="owner" className="display_image" />
+        <img src={ownerImg} alt="owner" className="repocard_image" />
       </div>
       <div className="col">
         <h5>

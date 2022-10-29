@@ -1,14 +1,70 @@
 .row {
   display: flex;
-  background-color: aqua;
+  // background-color: aqua;
   justify-content: space-between;
 }
 
-.col {
-  background-color: aquamarine;
+.main_header {
+  font-size: 2rem;
 }
 
 .owner_img {
   height: 100px;
   width: 100px;
+}
+
+input {
+  padding: 5px 15px;
+  border: 2px solid rgb(18, 116, 103);
+  width: 15rem;
+  &:focus {
+    border: 0px;
+    outline: none;
+    border: 2px solid rgb(18, 116, 103);
+  }
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 5px 15px;
+  background-color: aquamarine;
+  border: 2px solid rgb(18, 116, 103);
+  &:hover {
+    background-color: rgb(18, 116, 103);
+    cursor: pointer;
+    color: #fff;
+  }
+}
+
+.user {
+  &_container {
+    background-color: rgb(211, 243, 249);
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &_image {
+    height: 10rem;
+    width: 10rem;
+    margin-right: 2rem;
+  }
+
+  &_name {
+    font-size: 3rem;
+  }
+
+  &_follower span {
+    font-weight: 600;
+  }
 }
